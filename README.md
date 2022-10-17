@@ -2,14 +2,6 @@
 
 [![colab](https://user-images.githubusercontent.com/4096485/86174089-b2709f80-bb29-11ea-9faf-3d8dc668a1a5.png)](https://colab.research.google.com/drive/1fVSBbH-XKnDYIyEqdm5uvvggpiwfw5x4)
 
-## Detection examples
-<div align="center">
-	<img src="predictions.jpg" width="80%" height="10%"/>
-</div>
-<div align="center">
-	<img src="predictions (1).jpg" width="80%" height="10%"/>
-</div>
-
 ## How to run it
 
 This project is based on [Darknet Framework](https://github.com/AlexeyAB/darknet). You should go there first to see how to compile Darknet on your platform. If you’re on Linux, you can just launch YOLOv4_Custom.ipynb from my repository. Also you can use [this link](https://colab.research.google.com/drive/1fVSBbH-XKnDYIyEqdm5uvvggpiwfw5x4) to run custom object detection in Google Colab.
@@ -55,6 +47,13 @@ To detect your own image, you should run this line and change **IMAGE** to the p
 imShow('predictions.jpg')
 ```
 
+## Detection examples
+<div align="center">
+	<img src="predictions.jpg" width="80%" height="10%"/>
+</div>
+<div align="center">
+	<img src="predictions (1).jpg" width="80%" height="10%"/>
+</div>
 
 ## Test results
 
